@@ -50,7 +50,7 @@ const checkout = () => {
     const [cart, setCart] = useCartContext();
     const [menu, setMenu] = useState(false);
     const [popup, setPopup] = useState(false);
-    const [confirm, setConfirm] = useState(true);
+    const [confirm, setConfirm] = useState(false);
 
     const [info, setInfo] = useState({
         name: '',
