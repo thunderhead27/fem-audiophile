@@ -10,6 +10,7 @@ import { BestAudioGear } from "../components/Home/BestAudioGear";
 import { Footer } from "../components/Footer";
 import { Menu } from "../components/Menu";
 import { CartPopup } from "../components/Cart/CartPopup";
+import OutsideAlerter from "./../Hooks/useOutsideAlerter";
 
 const Container = styled.div`
   ${({ menu }) => (menu ? `background-color: rgba(0,0,0,0.5);` : ``)};
@@ -25,7 +26,7 @@ const IndexPage = () => {
       <Menu menu={menu}>
         <Browse />
       </Menu>
-      <CartPopup popup={popup} />
+      <OutsideAlerter popup={popup} setPopup={setPopup}><CartPopup popup={popup} /></OutsideAlerter>
       <Container menu={menu} popup={popup}>
         <HomeNav menu={menu} setMenu={setMenu} popup={popup} setPopup={setPopup} />
         <div tw="flex flex-col items-center gap-y-6 tablet:gap-y-8 laptop:gap-y-12">

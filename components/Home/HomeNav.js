@@ -28,7 +28,7 @@ export const HomeNav = ({ menu, setMenu, popup, setPopup }) => {
         <span tw="text-white text-4xl font-sans tracking-wider font-bold text-center laptop:text-start">XX99 MARK II</span>
         <span tw="text-white text-4xl font-sans tracking-wider mb-6 font-bold text-center laptop:text-start">HEADPHONES</span>
         <span tw="text-white text-sm opacity-75 font-sans w-[350px] text-center laptop:text-start mb-10">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</span>
-        <button tw="bg-darkOrange font-sans self-center laptop:self-start h-12 w-[160px] text-sm text-white font-bold">SEE PRODUCT</button>
+        <Link href="/products/4"><button tw="bg-darkOrange font-sans self-center laptop:self-start h-12 w-[160px] text-sm text-white font-bold">SEE PRODUCT</button></Link>
       </div>
     </div>
   );

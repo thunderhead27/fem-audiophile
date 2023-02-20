@@ -10,8 +10,8 @@ import OutsideAlerter from "../Hooks/useOutsideAlerter";
 
 
 const Container = styled.div`
-  ${({ menu }) => (menu ? `background-color: rgba(0,0,0,0.5);` : ``)};
-  ${({ popup }) => (popup ? `background-color: rgba(0,0,0,0.5);` : ``)};
+  ${({ menu }) => (menu ? `background-color: rgba(0,0,0,0.5); filter: brightness(50%)` : ``)};
+  ${({ popup }) => (popup ? `background-color: rgba(0,0,0,0.5); filter: brightness(50%)` : ``)};
 `;
 
 export const Layout = ({ children }) => {
