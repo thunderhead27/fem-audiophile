@@ -31,8 +31,8 @@ export const Browse = () => {
       </Link>
       <Link href="earphones">
         <div tw="flex flex-col">
-          <img tw="self-center" src="/assets/shared/desktop/image-category-thumbnail-earphones.png" srcSet="/assets/shared/desktop/image-category-thumbnail-earphones.png 400w, /assets/shared/desktop/image-category-thumbnail-earphones.png, 400w" sizes="(max-width: 1439px) 150px, 300px" />
-          <div tw="flex flex-col h-40 w-80 tablet:w-48 tablet:h-40 laptop:h-52 laptop:w-[350px] relative bg-darkGray top-[-90px] tablet:top-[-96px] laptop:top-[-165px] desktop:top-[-171px] z-[-10] self-center rounded-lg pt-20 laptop:pt-32 text-center font-sans font-bold">
+          <img tw="self-center" src="/assets/shared/desktop/image-category-thumbnail-earphones.png" srcSet="assets/shared/desktop/image-category-thumbnail-earphones-mobile.png 400w, /assets/shared/desktop/image-category-thumbnail-earphones.png, 400w" sizes="(max-width: 1439px) 200px, 400px" />
+          <div tw="flex flex-col h-40 w-80 tablet:w-48 tablet:h-40 laptop:h-52 laptop:w-[350px] relative bg-darkGray top-[-90px] tablet:top-[-78px] laptop:top-[-128px] desktop:top-[-133px] z-[-10] self-center rounded-lg pt-20 laptop:pt-32 text-center font-sans font-bold">
             <span>EARPHONES</span>
             <div tw="flex flex-row items-center justify-center">
               <span tw="opacity-50 mr-2">SHOP</span>
