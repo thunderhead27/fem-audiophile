@@ -4,7 +4,7 @@ import Arrow from '../../public/assets/shared/desktop/icon-arrow-right.svg';
 
 export const Browse = () => {
   return (
-    <div tw="flex flex-col tablet:flex-row gap-y-16 tablet:gap-x-8 pt-36">
+    <div tw="flex flex-col tablet:flex-row gap-y-16 tablet:gap-x-8 pt-48">
       <Link href="/headphones">
         <div tw="flex flex-col mb-4">
           <div tw="flex flex-col h-40 w-80 tablet:w-48 tablet:h-40 laptop:h-52 laptop:w-[350px] bg-darkGray rounded-lg pt-20 laptop:pt-32 text-center font-sans font-bold">
