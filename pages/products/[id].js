@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Head from "next/head";
-import { ProductsLayout } from "./ProductsLayout";
+import { ProductsLayout } from "../../components/ProductsLayout";
 import tw from 'twin.macro';
 import data from '../../utils/data/data.json';
 import Link from "next/link";

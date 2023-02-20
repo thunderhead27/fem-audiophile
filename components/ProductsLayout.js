@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import tw, { styled } from 'twin.macro';
-import { CartPopup } from "../../components/Cart/CartPopup";
-import { Nav } from "../../components/Category/Nav";
-import { Footer } from "../../components/Footer";
-import { BestAudioGear } from "../../components/Home/BestAudioGear";
-import { Browse } from "../../components/Home/Browse";
-import { Menu } from "../../components/Menu";
-import OutsideAlerter from "../../Hooks/useOutsideAlerter";
+import { CartPopup } from "./Cart/CartPopup";
+import { Nav } from "./Category/Nav";
+import { Footer } from "./Footer";
+import { BestAudioGear } from "./Home/BestAudioGear";
+import { Browse } from "./Home/Browse";
+import { Menu } from "./Menu";
+import OutsideAlerter from "../Hooks/useOutsideAlerter";
 
 const Container = styled.div`
   ${({ menu }) => (menu ? `background-color: rgba(0,0,0,0.5);` : ``)};
