@@ -24,7 +24,7 @@ export const Layout = ({ children }) => {
             <Nav menu={menu} setMenu={setMenu} popup={popup} setPopup={setPopup} />
             <Menu menu={menu} />
             <OutsideAlerter popup={popup} setPopup={setPopup}><CartPopup popup={popup} /></OutsideAlerter>
-            <Container tw="pt-16 tablet:pt-32 laptop:pt-40" menu={menu} popup={popup}>
+            <Container tw="flex flex-col items-center pt-16 tablet:pt-32 laptop:pt-40" menu={menu} popup={popup}>
                 <main>{children}</main>
                 <Browse />
                 <BestAudioGear />
